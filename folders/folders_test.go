@@ -37,7 +37,6 @@ func Test_GetAllFolders(t *testing.T) {
 			return
 		}
 		fmt.Println("Successfully Passed Test 1")
-		return
 	})
 
 	// Test Case 2: Function returns an error message when provided with an invalid orgID
