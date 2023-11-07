@@ -78,7 +78,7 @@ METHOD USED TO ACHIEVE PAGINATION:
 
 I honestly didn't know about pagination before this but here is my attempt at implementating it into this program. 
 The functionality of this is split into 4 different functions. This implementation uses userInput into the commandLine 
-to simulate a user clicking a button on a webpage or app for example. 
+to simulate a user clicking a button on a webpage or app to provide the next token for the next set of data. 
 
 The main function responsible for all the heavylifting is the GenerateMap function which takes in the output from the GetAllFolders
 function and returns a map with unique strings, aka tokens, as keys and a struct of type PaginationOutput which contains the data,
